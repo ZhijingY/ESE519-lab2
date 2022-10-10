@@ -15,11 +15,15 @@ After downloading Homebrew, we can follow the Section 9.1.1 in [Pico C SDK Getti
 
 A serial console is also needed for this lab to view any output from the program running on your board. Screen is a good choice. Simply type "brew install screen" in your terminal. After downloading screen, [here](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux) is a wonderful guide about how to use it to view the output of your board. Basically to view the output of RP2040 on your terminal, you need to firstly figure out which serial port is assigned to your board. This can be done by typing "ls /dev/tty.*" without connecting the RP2040 to your computer. You will see something like this: 
 
-picture
+```
+/dev/tty.Bluetooth-Incoming-Port
+```
 
 Then plug RP2040 to your computer, give the "ls /dev/tty.*" command again, a new serial port will show up. That will be the port for RP2040 on your computer. Here I give the example: 
 
-picture
+```
+/dev/tty.Bluetooth-Incoming-Port	/dev/tty.usbmodem14201
+```
 
 In this case, typing "screen /dev/tty.board_name 115200" will bring you to the screen mode in which you can monitor the output of your board.
 
