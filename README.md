@@ -5,5 +5,4 @@ To complete the setup, I have cloned the pico-examples and pico-sdk from github.
 I used Homebrew to install all the other softwares. If you don't have Homebrew yet, here are two links of guidance you can follow: 
 
 https://treehouse.github.io/installation-guides/mac/homebrew
-
 https://mac.install.guide/homebrew/3.html.
