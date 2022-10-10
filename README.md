@@ -37,4 +37,4 @@ If you don't have or never use git, [install it on your computer](https://git-sc
 
 ![a](https://github.com/ZhijingY/ese5190-2022/blob/main/guides/Screen%20Shot%202022-10-10%20at%206.23.06%20PM.png)
 
-If dificulty is met when cloning the pico files, 
+If difficulty is met when cloning the pico files, you can also 
