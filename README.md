@@ -37,4 +37,4 @@ If you don't have or never use git, [install it on your computer](https://git-sc
 
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/Screen%20Shot%202022-10-10%20at%206.23.06%20PM.png)
 
-If difficulty is met when cloning the pico files, you can also 
+If difficulty is met when cloning the pico files, you can also download the files manually by clicking the green "Code" button and choose "Download ZIP". 
