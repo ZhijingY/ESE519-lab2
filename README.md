@@ -20,3 +20,5 @@ Then plug RP2040 to your computer, give the "ls /dev/tty.*" command again, a new
 picture
 
 In this case, typing "screen /dev/tty.board_name 115200" will bring you to the screen mode in which you can monitor the output of your board.
+
+If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac).
