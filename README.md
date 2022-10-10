@@ -7,7 +7,9 @@ I have downloaded [Visual Studio Code](https://code.visualstudio.com/download). 
 
 I used Homebrew to install all the other softwares. If you don't have Homebrew yet, you can folllow the instruction given in the Pico C SDK Getting Started Guide. The magic command for installing brew is given as:
 
+```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
 After downloading Homebrew, we can follow the Section 9.1.1 in [Pico C SDK Getting Started Guide](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) to download CMake and arm-none-eabi-gcc GNU Arm Embedded Toolchain by simply type in the "brew install ..." command in the terminal. 
 
