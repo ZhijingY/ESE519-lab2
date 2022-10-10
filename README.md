@@ -19,7 +19,7 @@ A serial console is also needed for this lab to view any output from the program
 /dev/tty.Bluetooth-Incoming-Port
 ```
 
-Then plug RP2040 to your computer, give the "ls /dev/tty.*" command again, a new serial port will show up. That will be the port for RP2040 on your computer. Here I give the example: 
+Then plug RP2040 to your computer, give the ```ls /dev/tty.*``` command again, a new serial port will show up. That will be the port for RP2040 on your computer. Here I give the example: 
 
 ```
 /dev/tty.Bluetooth-Incoming-Port	/dev/tty.usbmodem14201
