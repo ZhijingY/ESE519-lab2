@@ -1,4 +1,7 @@
 # ESE519-lab2
 
-The machine I'm using is MacBook Pro, 13-inch, 2018, macOS Big Sur 11.7. Processor is 2.3GHz Quad-Core Intel Core i5. 
-ss
+The machine I'm using is MacBook Pro, 13-inch, 2018, macOS version is Big Sur 11.7. Processor is 2.3GHz Quad-Core Intel Core i5. 
+To complete the setup, I have cloned the pico-examples and pico-sdk from github. I have downloaded Visual Studio Code. 
+I used Homebrew to install all the other softwares. If you don't have Homebrew yet, here are two links of guidance you can follow: 
+https://treehouse.github.io/installation-guides/mac/homebrew
+https://mac.install.guide/homebrew/3.html.
