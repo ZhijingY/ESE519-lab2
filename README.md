@@ -25,7 +25,7 @@ Then plug RP2040 to your computer, give the "ls /dev/tty.*" command again, a new
 /dev/tty.Bluetooth-Incoming-Port	/dev/tty.usbmodem14201
 ```
 
-In this case, typing "screen /dev/tty.board_name 115200" will bring you to the screen mode in which you can monitor the output of your board.
+In this case, ```/dev/tty.usbmodem14201``` typing "screen /dev/tty.usbmodem14201 115200" will bring you to the screen mode in which you can monitor the output of your board.
 
 If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac). After installing git onto your computer, clone the [PICO-SDK](https://github.com/raspberrypi/pico-sdk) and [PICO-EXAMPLES](https://github.com/raspberrypi/pico-examples). Here is an approach to follow. 
 
