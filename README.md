@@ -37,4 +37,14 @@ If you don't have or never use git, [install it on your computer](https://git-sc
 
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/Screen%20Shot%202022-10-10%20at%206.23.06%20PM.png)
 
+Commands that need to be used are:
+
+```
+$ git clone -b master https://github.com/raspberrypi/pico-sdk.git
+$ cd pico-sdk
+$ git submodule update --init
+$ cd ..
+$ git clone -b master https://github.com/raspberrypi/pico-examples.git
+```
+
 If difficulty is met when cloning the pico files, you can also download the files manually by clicking the green "Code" button and choose "Download ZIP". In your terminal, use ```mkdir pico``` to create a folder called "pico" in any directory that you consider proper. Put the downloaded "pico-sdk" folder and "pico-examples" folder into the "pico" folder. 
