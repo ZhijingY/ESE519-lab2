@@ -21,6 +21,8 @@ picture
 
 In this case, typing "screen /dev/tty.board_name 115200" will bring you to the screen mode in which you can monitor the output of your board.
 
-If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac). After installing git onto your computer, clone the [PICO-SDK](https://github.com/raspberrypi/pico-sdk) and [PICO-EXAMPLES](https://github.com/raspberrypi/pico-examples). 
+If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac). After installing git onto your computer, clone the [PICO-SDK](https://github.com/raspberrypi/pico-sdk) and [PICO-EXAMPLES](https://github.com/raspberrypi/pico-examples). Here is an approach to follow. 
 
 ![a](https://github.com/ZhijingY/ese5190-2022/blob/main/guides/Screen%20Shot%202022-10-10%20at%206.23.06%20PM.png)
+
+If dificulty is met when cloning the pico files, 
