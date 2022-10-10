@@ -21,4 +21,4 @@ picture
 
 In this case, typing "screen /dev/tty.board_name 115200" will bring you to the screen mode in which you can monitor the output of your board.
 
-If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac).
+If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac). After installing git onto your computer, 
