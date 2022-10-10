@@ -5,7 +5,7 @@ To complete the setup, I have cloned the pico-examples and pico-sdk from github.
 
 I have downloaded [Visual Studio Code](https://code.visualstudio.com/download). Visit the website, and downloaded the macOS version.
 
-I used Homebrew to install all the other softwares. If you don't have Homebrew yet, you can folllow the instruction given in the Pico C SDK Getting Started Guide. The magic command for installing brew is given as:
+I used Homebrew to install all the other softwares. If you don't have Homebrew yet, you can folllow the instruction given in the Pico SDK Getting Started Guide. The magic command for installing brew is given as:
 
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
