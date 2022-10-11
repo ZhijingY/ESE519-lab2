@@ -3,6 +3,8 @@
 The machine I'm using is MacBook Pro, 13-inch, 2018, macOS version is Big Sur 11.7. Processor is 2.3GHz Quad-Core Intel Core i5. 
 To complete the setup, I have cloned the pico-examples and pico-sdk from github. 
 
+## Step 1: Download required softwares
+
 I have downloaded [Visual Studio Code](https://code.visualstudio.com/download). Visit the website, and downloaded the macOS version.
 
 I used Homebrew to install all the other softwares. If you don't have Homebrew yet, you can folllow the instruction given in the Pico SDK Getting Started Guide. The magic command for installing brew is given as:
@@ -33,6 +35,8 @@ $ /dev/tty.Bluetooth-Incoming-Port	/dev/tty.usbmodem14201
 
 In this case, ```/dev/tty.usbmodem14201``` is the serial port for your RP2040. Typing ```screen /dev/tty.usbmodem14201 115200``` will bring you to the screen mode in which you can monitor the output of your board.
 
+## Step 2: Clone required github files
+
 In your terminal, under a directory you consider proper, type in ```mkdir pico``` to create a folder called "pico", and ```cd pico``` to get into the folder. Then in the "pico" directory, use git to clone the required [PICO-SDK](https://github.com/raspberrypi/pico-sdk) and [PICO-EXAMPLES](https://github.com/raspberrypi/pico-examples) files.
 
 If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac). After installing git onto your computer, clone the files to local "pico" folder by the commands:
@@ -46,3 +50,5 @@ $ git clone -b master https://github.com/raspberrypi/pico-examples.git
 ```
 
 If difficulty is met when cloning the pico files, you can also download the files manually by clicking the green "Code" button and choose "Download ZIP". Put the downloaded "pico-sdk" folder and "pico-examples" folder into the "pico" folder. 
+
+## Step 3: Setup VScode
