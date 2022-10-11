@@ -76,4 +76,8 @@ If you can successfully choose the compiler, now you can build all the binaries 
 
 This will create a build folder in the "pico-example" directory.
 
-One thing worth notice but not being mentioned in the guide is that even with the "settings.json" defining the value of "PICO_SDK_PATH", it's highly possible that during the build the compiler cannot see the definition of "PICO_SDK_PATH". In this case, go to "setting" again, and click into the "Cmake Tools" window, set both the "Cmake: Configure Environment" and "Cmake: Build Environment"
+One thing worth notice but not being mentioned in the guide is that even with the "settings.json" defining the value of "PICO_SDK_PATH", it's highly possible that during the build the compiler cannot see the definition of "PICO_SDK_PATH". In this case, go to "setting" again, and click into the "Cmake Tools" window, in both the "Cmake: Configure Environment" and "Cmake: Build Environment" set the variable "PICO_SDK_PATH" as "../../pico-sdk". This can be seen as below:
+
+![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/Screen%20Shot%202022-10-10%20at%209.45.26%20PM.png)
+
+![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_cofig_env.png)
