@@ -57,7 +57,7 @@ Open VScode, on the sidebar choose "Extensions", search for "cmake", install the
 
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_ext.png)
 
-Open the "pico-examples" folder in VScode, create a folder under the "pico-examples" directory and name it ".vscode". Inside the ".vscode", create a file called "settings.json". Include the following text in the "settings.json" file.
+Open the "pico-examples" folder in VScode, create a folder under the "pico-examples" directory and name it ".vscode". Inside the ".vscode", create a file called "settings.json". Include the following text in the "settings.json" file as stated in the section 9.1.3 in the [getting started pdf](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf).
 
 ```
 {
