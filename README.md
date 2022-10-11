@@ -66,4 +66,6 @@ According to the section 9.1.3 in the [getting started pdf](https://datasheets.r
 }
 ```
 
-One thing worth notice but not being mentioned in the guide is that even with the "settings.json" defining the value of "PICO_SDK_PATH", it's highly 
+After editing and saving the json file, go to the file menu of VScode and click on "Add Folder to Workspace…", then navigate to "pico-examples" folder and click "Okay". The project will load and you’ll (probably) be asked to choose a compiler. If so, choose the "GCC 10.3.1"
+
+One thing worth notice but not being mentioned in the guide is that even with the "settings.json" defining the value of "PICO_SDK_PATH", it's highly possible that 
