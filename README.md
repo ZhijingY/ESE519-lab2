@@ -94,4 +94,4 @@ Now plug your RP2040 into your computer. Press and hold the RESET button. While 
 
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/RPI-RP2.png)
 
-Go to Finder and find the "hello_world" folder under the build 
+Go to Finder and find the "hello_world" folder under the build, visit the usb folder, drag and drop the hello_usb.uf2 file onto the RPI-RP2 icon. As soon as the file is dropped onto it, the RPI-RP2 will disappearr, indicating that it's now running the program. To monitor the output,
