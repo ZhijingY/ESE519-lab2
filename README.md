@@ -83,3 +83,15 @@ One thing worth notice but not being mentioned in the guide is that even with th
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_cofig_env.png)
 
 However, if VScode cannot detect the arm-none-eabi compiler, there's another way to build the binaries files. In your pico-examples directory, ```cd build```, then ```cd hello_world```. Now we are in the hello_world folder, and we are ready to build with ```make -j8```. 
+
+## Step 4: Run the program on your RP2040
+
+Upon the success of build, we can happily see this kind of result:
+
+![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_success.png)
+
+Now plug your RP2040 into your computer. Press and hold the RESET button. While holding RESET, press and release the BOOTSEL button. Release the RESET button once you see an RPI-RP2 disk showing up on your desktop as shown below:
+
+![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/RPI-RP2.png)
+
+Go to Finder and find the "hello_world" folder under the build 
