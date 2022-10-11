@@ -68,6 +68,6 @@ According to the section 9.1.3 in the [getting started pdf](https://datasheets.r
 
 After editing and saving the json file, go to the file menu of VScode and click on "Add Folder to Workspace…", then navigate to "pico-examples" folder and click "Okay". The project will load and you’ll (probably) be asked to choose a compiler. If so, choose the "GCC 10.3.1 arm-none-eabi". If not, click the "tool" icon at the bottom of VScode window, and choose the arm-none-eabi compiler as your kit. The icon to choose and compiler to use are indicated as the picture below:
 
-
+![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_build.png)
 
 One thing worth notice but not being mentioned in the guide is that even with the "settings.json" defining the value of "PICO_SDK_PATH", it's highly possible that 
