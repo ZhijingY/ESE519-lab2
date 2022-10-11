@@ -94,4 +94,4 @@ Now plug your RP2040 into your computer. Press and hold the RESET button. While 
 
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/RPI-RP2.png)
 
-Go to Finder and find the "hello_world" folder under the build, visit the usb folder, drag and drop the hello_usb.uf2 file onto the RPI-RP2 icon. As soon as the file is dropped onto it, the RPI-RP2 will disappearr, indicating that it's now running the program. To monitor the output,
+Go to Finder and find the "hello_world" folder under the build, visit the usb folder, drag and drop the hello_usb.uf2 file onto the RPI-RP2 icon. As soon as the file is dropped onto it, the RPI-RP2 will disappearr, indicating that it's now running the program. To monitor the output, we can open a terminal window, type ```screen serial_port_of_board 115200```. In my case, it will be ```screen /dev/tty.usbmodem14201 115200```. 115200 is the data transmission speed we set.
