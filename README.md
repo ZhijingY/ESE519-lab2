@@ -70,4 +70,10 @@ After editing and saving the json file, go to the file menu of VScode and click 
 
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_build.png)
 
+If you can successfully choose the compiler, now you can build all the binaries files by clicking on the "Build" button (with a cog wheel) in the blue bottom bar of the window. The icon is shown below:
+
+![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_build_icon.png)
+
+This will create a build folder in the "pico-example" directory.
+
 One thing worth notice but not being mentioned in the guide is that even with the "settings.json" defining the value of "PICO_SDK_PATH", it's highly possible that 
