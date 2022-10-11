@@ -33,11 +33,9 @@ $ /dev/tty.Bluetooth-Incoming-Port	/dev/tty.usbmodem14201
 
 In this case, ```/dev/tty.usbmodem14201``` is the serial port for your RP2040. Typing ```screen /dev/tty.usbmodem14201 115200``` will bring you to the screen mode in which you can monitor the output of your board.
 
-If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac). After installing git onto your computer, clone the [PICO-SDK](https://github.com/raspberrypi/pico-sdk) and [PICO-EXAMPLES](https://github.com/raspberrypi/pico-examples). Here is an approach to follow. 
+In your terminal, under a directory you consider proper, type in ```mkdir pico``` to create a folder called "pico", and ```cd pico``` to get into the folder. Then in the "pico" directory, use git to clone the required [PICO-SDK](https://github.com/raspberrypi/pico-sdk) and [PICO-EXAMPLES](https://github.com/raspberrypi/pico-examples) files.
 
-![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/Screen%20Shot%202022-10-10%20at%206.23.06%20PM.png)
-
-Commands that need to be used are:
+If you don't have or never use git, [install it on your computer](https://git-scm.com/download/mac). After installing git onto your computer, clone the files to local "pico" folder by the commands:
 
 ```
 $ git clone -b master https://github.com/raspberrypi/pico-sdk.git
@@ -47,4 +45,4 @@ $ cd ..
 $ git clone -b master https://github.com/raspberrypi/pico-examples.git
 ```
 
-If difficulty is met when cloning the pico files, you can also download the files manually by clicking the green "Code" button and choose "Download ZIP". In your terminal, use ```mkdir pico``` to create a folder called "pico" in any directory that you consider proper. Put the downloaded "pico-sdk" folder and "pico-examples" folder into the "pico" folder. 
+If difficulty is met when cloning the pico files, you can also download the files manually by clicking the green "Code" button and choose "Download ZIP". Put the downloaded "pico-sdk" folder and "pico-examples" folder into the "pico" folder. 
