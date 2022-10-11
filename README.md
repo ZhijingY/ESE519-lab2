@@ -52,3 +52,7 @@ $ git clone -b master https://github.com/raspberrypi/pico-examples.git
 If difficulty is met when cloning the pico files, you can also download the files manually by clicking the green "Code" button and choose "Download ZIP". Put the downloaded "pico-sdk" folder and "pico-examples" folder into the "pico" folder. 
 
 ## Step 3: Setup VScode
+
+Open VScode, on the sidebar choose "Extensions", search for "cmake", install the "CMake" and "CMake Tools". The position of "Extensions" and extensions to be downloaded are shown below:
+
+![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_ext.png)
