@@ -81,3 +81,5 @@ One thing worth notice but not being mentioned in the guide is that even with th
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/Screen%20Shot%202022-10-10%20at%209.45.26%20PM.png)
 
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_cofig_env.png)
+
+However, if VScode cannot detect the arm-none-eabi compiler, there's another way to build the binaries files. In your pico-examples directory, ```cd build```, then ```cd hello_world```. Now we are in the hello_world folder, and we are ready to build with ```make -j8```. 
