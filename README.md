@@ -57,4 +57,12 @@ Open VScode, on the sidebar choose "Extensions", search for "cmake", install the
 
 ![a](https://github.com/ZhijingY/ESE519-lab2/blob/main/vscode_ext.png)
 
+Open the "pico-examples" folder in VScode, create a folder under the "pico-examples" directory and name it ".vscode". Inside the ".vscode", create a file called "settings.json". Include the following text in the "settings.json" file.
 
+```
+{
+  "cmake.environment": {
+  "PICO_SDK_PATH":"../../pico-sdk"
+  },
+}
+```
